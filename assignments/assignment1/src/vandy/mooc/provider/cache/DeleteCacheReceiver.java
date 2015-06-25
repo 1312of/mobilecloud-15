@@ -61,5 +61,7 @@ public class DeleteCacheReceiver extends BroadcastReceiver {
         // from the cache.
         // TODO -- you fill in here by calling the appropriate method in 
         // the ContentProviderTimeoutCache.
+        ContentProviderTimeoutCache cache = new ContentProviderTimeoutCache(context);
+        cache.removeExpiredAcronyms();
     }
 }
