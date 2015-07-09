@@ -7,3 +7,10 @@
 videos
 bin
 build
+*.iml
+*.mpg
+.idea/
+coursera-submission/
+gradle/
+gradlew
+gradlew.bat
